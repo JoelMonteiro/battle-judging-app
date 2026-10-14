@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#E3FF00</color>
+
+    <!-- SplashScreen -->
+    <color name="colorBackground">#000000</color>
+
+    <!-- JudgeActivity -->
+    <color name="colorFirst">#0000FF</color>
+    <color name="colorDraw">#CCCC</color>
+    <color name="colorSecond">#E50000</color>
+    <color name="social_grey">#888888</color>
+</resources>

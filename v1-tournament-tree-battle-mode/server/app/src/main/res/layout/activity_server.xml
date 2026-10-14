@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ServerActivity">
+
+    <LinearLayout
+        android:id="@+id/layoutJudgeText"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center|bottom"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtJudge1"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/colorBackground"
+            android:hint="J1" />
+
+        <TextView
+            android:id="@+id/txtJudge2"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/colorBackground"
+            android:hint="J2" />
+
+        <TextView
+            android:id="@+id/txtJudge3"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/colorBackground"
+            android:hint="J3" />
+
+        <TextView
+            android:id="@+id/txtJudge4"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/colorBackground"
+            android:hint="J4" />
+
+        <TextView
+            android:id="@+id/txtJudge5"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/colorBackground"
+            android:hint="J5" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutJudgeImage"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/layoutJudgeText"
+        android:layout_centerHorizontal="true"
+        android:gravity="center|top"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/imgJudge1"
+            android:background="@drawable/default_color"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="70dp"
+            android:layout_height="40dp" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/imgJudge2"
+            android:background="@drawable/default_color"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="70dp"
+            android:layout_height="40dp" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/imgJudge3"
+            android:background="@drawable/default_color"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="70dp"
+            android:layout_height="40dp" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/imgJudge4"
+            android:background="@drawable/default_color"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="70dp"
+            android:layout_height="40dp" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/imgJudge5"
+            android:background="@drawable/default_color"
+            android:layout_marginHorizontal="5dp"
+            android:layout_width="70dp"
+            android:layout_height="40dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutCompetitors"
+        android:layout_width="450dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/layoutJudgeImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtBlueCorner"
+            android:layout_width="190dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:hint="BlueCorner"
+            android:textColor="@color/colorFirst"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtPoints"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="5dp"
+                android:gravity="center"
+                android:hint="# - #"
+                android:textColor="@color/colorBackground"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/txtRoundNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginHorizontal="5dp"
+                android:gravity="center"
+                android:hint="##"
+                android:textColor="@color/colorBackground"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtRedCorner"
+            android:layout_width="190dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:hint="RedCorner"
+            android:textColor="@color/colorSecond"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutButtons"
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        android:layout_below="@+id/layoutCompetitors"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-100dp"
+        android:gravity="bottom|center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnNextRound"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/rounded_button"
+            android:text="Next Round" />
+
+        <Button
+            android:id="@+id/btnChangeTournament"
+            android:layout_width="111dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_button"
+            android:text="Change Tournament" />
+    </LinearLayout>
+
+</RelativeLayout>

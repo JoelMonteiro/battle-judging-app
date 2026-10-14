@@ -1,0 +1,26 @@
+<resources>
+    <!-- Manifest -->
+    <string name="app_name">Battle App - Judge</string>
+
+    <!-- SplashScreen -->
+
+    <!-- JudgeActivity -->
+    <string name="waiting_round_start">Round %1$d</string>
+    <string name="waiting_for_server">Waiting for server</string>
+
+    <string name="click_first">Voted Blue</string>
+    <string name="click_draw">Voted Draw</string>
+    <string name="click_second">Voted Red</string>
+
+    <string name="text_first">%1$s</string>
+    <string name="text_second">%1$s</string>
+
+    <!-- Votes -->
+    <string name="blue">BLUE</string>
+    <string name="draw">DRAW</string>
+    <string name="red">RED</string>
+    <!-- Messages -->
+    <string name="judges_full">All 5 judges are already connected.</string>
+    <string name="server_error">Could not reach the server.</string>
+    <string name="vote_failed">Vote not saved. Please try again.</string>
+</resources>
