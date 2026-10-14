@@ -1,0 +1,28 @@
+# --- Segredos: nunca publicar (usar os ficheiros *.example.*) ---
+**/google-services.json
+**/includes/Constants.php
+**/php/init.php
+**/js/firebase-config.js
+
+# --- Android Studio / Gradle ---
+**/.gradle/
+**/.idea/
+**/build/
+*.iml
+local.properties
+captures/
+*.apk
+*.aab
+*.jks
+*.keystore
+
+# --- Fotografias reais dos competidores (só os dummies vão para o repositório) ---
+**/assets/competitors/*
+!**/assets/competitors/dummyBlue.png
+!**/assets/competitors/dummyRed.png
+
+# --- Sistema ---
+.DS_Store
+Thumbs.db
+desktop.ini
+_snapshot.tar

@@ -1,0 +1,166 @@
+@import url("fonts.css");
+
+/*------------------------*/
+/*-------- Fundo ---------*/
+/*------------------------*/
+body {
+    background-image: url("../assets/image/background.gif");
+	background-size: cover;
+	text-transform: uppercase;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.dialogContainer {
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	position:absolute;
+	background: linear-gradient(transparent, firebrick);
+}
+.dialogContainerImage {
+	width: 80%;
+	height: 80%;
+	z-index: 1001;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	opacity: 0.9;
+	background: url("../assets/image/logo.png");
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.winnerContainer {
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	position:absolute;
+    background-image: url("../assets/image/background.gif");
+	background-size: cover;
+	text-transform: uppercase;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.divWinnerContainer {
+	width: 80%;
+	height: 80%;
+	z-index: 1001;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+.winnerBattle {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	vertical-align: middle;
+}
+
+#winnerBattle {
+	width: 100%;
+	text-align: center;
+	font: 10vh 'Oswald', sans-serif !important;
+}
+
+/*------------------------*/
+/*-------- Judges --------*/
+/*------------------------*/
+.divJudges {
+    height: 10vh;
+    padding-top: 2%;
+    text-align: center;
+}
+.voteBorder {
+    width: 16vh;
+    height: 4vh;
+    border-top-left-radius: 30em;
+    border-top-right-radius: 30em;
+    border-bottom-left-radius: 30em;
+    border-bottom-right-radius: 30em;
+}
+.judgeFont {
+    margin-bottom: 2%;
+	text-align: center;
+    font: 2.5vh 'Oswald', sans-serif !important;
+}
+
+/*------------------------*/
+/*--- RoundCompetitorInfo ---*/
+/*------------------------*/
+.divRoundCompetitorInfo {
+    height: 90vh;
+    padding-top: 2%;
+    text-align: center;
+}
+
+/*------------------------*/
+/*------- Competitors -------*/
+/*------------------------*/
+.competitorBorderLeft {
+    left: 50% !important;
+}
+.competitorBorderRight {
+    right: 50% !important;
+}
+
+.competitorName {
+    z-index: 1;
+    padding: 5% 5%;
+    position: relative;
+}
+.competitorFontLeft, .competitorFontRight {
+    color: white;
+    font: 6vh 'Oswald', sans-serif !important;
+}
+
+
+/*------------------------*/
+/*------- RoundInfo ------*/
+/*------------------------*/
+.divRoundPoints {
+    top: 15%;
+	height: 50vh;
+    position: relative;
+}
+.divPoints {
+    height: inherit;
+    vertical-align: middle;
+}
+.divRound {
+	margin-top: 15%;
+    height: inherit;
+    vertical-align: top;
+}
+
+.tournamentFont {
+	font: 7vh 'Oswald', sans-serif !important;
+}
+.pointsFont {
+	font: 50vh 'Anton', sans-serif !important;
+}
+.roundFont {
+	color: #9D0B0E;
+	font: 15vh 'Oswald', sans-serif !important;
+}
+.winnerFont {
+	font: 6vh 'Oswald', sans-serif !important;
+}
+
+.col-md-2 {
+	max-width: 20%;	
+}

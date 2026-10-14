@@ -1,0 +1,145 @@
+@import url("fonts.css");
+
+/*------------------------*/
+/*-------- Fundo ---------*/
+/*------------------------*/
+body {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-transform: uppercase;
+}
+.blueCorner {
+	background-image: linear-gradient(250deg, rgba(37, 150, 190, 0), rgba(37, 150, 190, 0.5));
+}
+.redCorner {
+	background-image: linear-gradient(120deg, rgba(228, 54, 66, 0), rgba(228, 54, 66, 0.5));
+}
+
+/*------------------------*/
+/*-------- Judges --------*/
+/*------------------------*/
+.divJudges {
+    height: 10vh;
+    padding-top: 2%;
+    text-align: center;
+}
+.judgeFont {
+    margin-bottom: 2%;
+	text-align: center;
+    font: 2.5vh 'Lato-Thin', sans-serif !important;
+}
+.voteBorder {
+    width: 10vh;
+    height: 4vh;
+    border-top-left-radius: 30em;
+    border-bottom-left-radius: 30em;
+    border-top-right-radius: 30em;
+    border-bottom-right-radius: 30em;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+/*------------------------*/
+/*------- Controls -------*/
+/*------------------------*/
+.divControls {
+    height: 85vh;
+    padding-top: 2%;
+    text-align: center;
+}
+.divCompetitors {
+	text-align: center;
+}
+.divBattleInfo {
+	text-align: center;
+}
+
+.hidden {
+	display: none;
+}
+.label {
+	margin-top: 25px;
+	font: 2vh 'Lato-Thin', sans-serif !important;
+}
+.radio {
+	margin-left: 10px;
+	transform: scale(2);
+}
+.input {
+	width: 20vh;
+	height: 4vh;
+	font: 2vh 'Lato-Thin', sans-serif !important;
+}
+.inputNumber{
+	width: 10vh;
+	height: 4vh;
+	font: 2vh 'Lato-Thin', sans-serif !important;
+}
+.button {
+	width: 20vh;
+    height: 4vh;
+	margin-top: 25px;
+    border-top-left-radius: 30em;
+    border-bottom-left-radius: 30em;
+    border-top-right-radius: 30em;
+    border-bottom-right-radius: 30em;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font: 2vh 'Lato-Thin', sans-serif !important;
+}
+#buttonClose {
+	width: 10vh;
+    height: 4vh;
+	margin-top: 25px;
+    border-top-left-radius: 30em;
+    border-bottom-left-radius: 30em;
+    border-top-right-radius: 30em;
+    border-bottom-right-radius: 30em;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font: 2vh 'Lato-Thin', sans-serif !important;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*------------------------*/
+/*-------- Login ---------*/
+/*------------------------*/
+.divLogin {   
+    width: 350px;
+    height: 200px;
+    padding: 30px;
+    margin: 0px auto;
+    margin-top: 30px;
+	text-align: center;
+    border-style: solid;
+    background-color: #D7F8FF;
+}
+.labelLogin {
+    font: 2.5vh 'Lato-Thin', sans-serif !important;
+}
+.inputLogin {
+    font: 2vh 'Lato-Thin', sans-serif !important;
+}
+.buttonLogin {
+    height: 35px;
+    width: 150px;
+	font: 2vh 'Lato-Thin', sans-serif !important;
+}
+
+/*------------------------*/
+/*------ Mensagens -------*/
+/*------------------------*/
+.divMessage {
+	margin-top: 2.5vh;
+	text-align: center;
+}
+.errorMessage {
+	color:red;
+}
+.sucessMessage {
+	color: green;
+}

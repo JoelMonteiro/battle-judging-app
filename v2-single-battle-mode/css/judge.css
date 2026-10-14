@@ -1,0 +1,103 @@
+@import url("fonts.css");
+
+/*------------------------*/
+/*-------- Fundo ---------*/
+/*------------------------*/
+body {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-transform: uppercase;
+}
+.dialogContainer, dialogContainerImage {
+	width: 100%;
+	height: 100vh;
+	z-index: 1000;
+	position: absolute;
+	background: linear-gradient(transparent, firebrick);
+}
+.blueCorner {
+	background-image: linear-gradient(250deg, rgba(37, 150, 190, 0), rgba(37, 150, 190, 0.5));
+}
+.drawCorner {
+	background-image: linear-gradient(120deg, rgba(228, 233, 237, 0), rgba(228, 233, 237, 0.5));
+}
+.redCorner {
+	background-image: linear-gradient(120deg, rgba(228, 54, 66, 0), rgba(228, 54, 66, 0.5));
+}
+
+/*------------------------*/
+/*------ Information -----*/
+/*------------------------*/
+.divInformation {
+    height: 10vh;
+	font: 2vh 'Lato-Thin', sans-serif !important;
+}
+.divJudgeNumber {
+	left: 0;
+	float: left;
+	position: fixed;
+	text-align: left;
+}
+.divJudgeName {
+	text-align: center;
+}
+.labelJudgeNumber {
+	padding: 10px;
+	border-bottom: 1px solid gray;
+	border-right: 1px solid gray;
+}
+.inputJudgeName {
+	width: 50%;
+	height: 50%;
+	padding: 10px;
+}
+.buttonSendJudgeName {
+	width: 10vh;
+	padding: 10px;
+	border-top-left-radius: 30em;
+    border-bottom-left-radius: 30em;
+    border-top-right-radius: 30em;
+    border-bottom-right-radius: 30em;
+}
+
+/*------------------------*/
+/*------- Buttons --------*/
+/*------------------------*/
+.divButtons {
+    height: 90vh;
+    text-align: center;
+}
+.divVote {
+	width: 100%;
+	height: 100%;
+}
+.blueCorner {
+	width: inherit;
+	height: inherit;
+	background: url(../assets/image/blue.png) no-repeat;
+	background-size: 100% 100%;
+}
+.drawCorner {
+	width: inherit;
+	height: inherit;
+	background: url(../assets/image/draw.png) no-repeat;
+	background-size: 100% 100%;
+}
+.redCorner {
+	width: inherit;
+	height: inherit;
+	background: url(../assets/image/red.png) no-repeat;
+	background-size: 100% 100%;
+}
+.buttonSendJudgeName:active, 
+.blueCorner:active, 
+.drawCorner:active, 
+.redCorner:active {
+	transform: scale(0.98);
+}
+
+/*-----------------------------------------------------------------------------------*/
+.hidden {
+	display: none;
+}
