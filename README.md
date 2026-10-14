@@ -4,7 +4,7 @@ Sistema de pontuação em tempo real para **batalhas 1 contra 1 julgadas por um 
 
 Foi usado em competições reais e passou por duas iterações. Este repositório contém ambas e explica o que correu mal na primeira e porque é que a segunda funcionou.
 
-| | v1: árvore de torneio (2018) | v2: batalha a batalha (2023–2024) |
+| | v1: árvore de torneio (2018) | v2: batalha a batalha (2023-2025) |
 |---|---|---|
 | Juízes | App Android | Página web (uma por juiz) |
 | Gestão | App Android "servidor" + BackOffice PHP | Página web protegida por login |
