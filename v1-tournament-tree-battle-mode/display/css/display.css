@@ -1,0 +1,148 @@
+@import url("fonts.css");
+
+/*------------------------*/
+/*-------- Fundo ---------*/
+/*------------------------*/
+body {
+    background-image: url("../assets/img/background.gif");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-transform: uppercase;
+}
+
+/*------------------------*/
+/*-------- Judges --------*/
+/*------------------------*/
+.divJudges {
+    height: 10vh;
+    padding-top: 2%;
+    text-align: center;
+}
+.voteBorder {
+    width: 16vh;
+    height: 4vh;
+    /* border: 1px solid gray; */
+    border-top-left-radius: 30em;
+    border-bottom-left-radius: 30em;
+    border-top-right-radius: 30em;
+    border-bottom-right-radius: 30em;
+}
+.judgeFont {
+    margin-bottom: 2%;
+	text-align: center;
+    font: 3vh 'Lato-Thin', sans-serif !important;
+}
+
+/*------------------------*/
+/*--- RoundCompetitorInfo ---*/
+/*------------------------*/
+.divRoundCompetitorInfo {
+    height: 89vh;
+    padding-top: 2%;
+    text-align: center;
+}
+
+/*------------------------*/
+/*------- Competitors -------*/
+/*------------------------*/
+.divCompetitors {
+
+}
+
+/* .divCompetitors > img { */
+    /* display: block; */
+    /* position: absolute; */
+    /* top: 55%; */
+    /* left: 50%; */
+    /* height: 90%; */
+    /* width: 100%; */
+    /* transform: translate(-50%, -50%); */
+/* } */
+
+.competitorBorderLeft {
+    left: 50% !important;
+}
+
+.competitorBorderRight {
+    right: 50% !important;
+}
+
+.competitorName {
+    position: relative;
+    /* top: 0%; */
+    padding: 5% 5%;
+    /* left: 35%;  ou 25 para pixel mais pequeno*/
+    z-index: 1;
+}
+
+.competitorFontLeft, .competitorFontRight {
+    font: 6vh 'Lato-Thin', sans-serif !important;
+    color: white;
+}
+
+.competitorFontLeft {
+    /*background: linear-gradient(to bottom right, #0080FF, #00DDFF);*/
+
+}
+
+.competitorFontRight {
+    /*background: linear-gradient(to bottom right, #FF0000, #FF8000);*/
+
+}
+
+/*------------------------*/
+/*------- RoundInfo ------*/
+/*------------------------*/
+.divRoundPoints {
+    position: relative;
+    top: 15%;
+	height: 50vh;
+}
+
+.roundBorder {
+
+}
+
+.pointsBorder {
+
+}
+
+.winnerBorder {
+	
+}
+
+.pointsFont {
+	font: 50vh 'Lato-Thin', sans-serif !important;
+}
+
+.tournamentFont {
+	font: 7vh 'Lato-Thin', sans-serif !important;
+}
+
+.roundFont {
+	font: 15vh 'Lato-Thin', sans-serif !important;
+	color: #9D0B0E;
+}
+
+.winnerFont {
+	font: 6vh 'Lato-Thin', sans-serif !important;
+}
+
+/* ----- ----- ----- ----- ----- ----- ----- ----- ----- ----- */
+
+
+
+
+
+
+.divPoints {
+    height: inherit;
+    vertical-align: middle;
+}
+
+.divRound {
+	margin-top: 15%;
+    height: inherit;
+    vertical-align: top;
+}
